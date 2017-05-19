@@ -31,6 +31,11 @@ public class Run {
 		cart1.addItem(p1);
 		cart1.addItem(pp1);
 		
+		
+		
+		//print the total no of items in the cart
+		System.out.println("Total no of items: "+cart1.getTotalItems());
+		
 		//print the contents of the shopping cart
 		cart1.printContents();
 		

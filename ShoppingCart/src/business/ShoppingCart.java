@@ -74,5 +74,17 @@ public class ShoppingCart {
 		
 		return total;
 	}
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public int getTotalItems(){
+		int total=0;
+		for(ProductAndQuantity item:this.items.values()){
+			total+=item.getQuantity();
+		}
+		return total;
+	}
 
 }
