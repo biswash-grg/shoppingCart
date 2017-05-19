@@ -71,6 +71,7 @@ public class ShoppingCart {
 			total += PriceDatabase.getPrice(item.getProduct())
 					* item.getQuantity();
 		}
+		
 		return total;
 	}
 
